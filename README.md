@@ -28,6 +28,7 @@ Data units and time step should be consistent across all inputs.
 2. Run:
    ```bash
    python swmmkalman.py
+   python plotcase.py
 
 ## Configuration (Key Parameters)
 
@@ -52,3 +53,13 @@ The main parameters are defined in `obstest/par.txt` (or the config section it r
 - `dq`: threshold of stage fluctuation used in estimating inflow propagation lag time.
 - `Iddetet`: IDs of intermediate stage stations to exclude (list; for comparison experiments).
 - `option`: `True` = Ensemble Kalman Smoother; `False` = Ensemble Kalman Filter.
+
+## Note on Hydrodynamic Model
+Note: The hydrodynamic model component is not included in this public release due to confidentiality constraints related to terrain data. If you require the complete version with the hydrodynamic model for research purposes, please contact the corresponding author: liupan@whu.edu.cn.
+
+## Results and Visualization
+We have uploaded all calculation results in the plot folder and provided plotting code examples. You can reproduce the figures from the paper:
+
+Fig.8 (Section 4.2.3): Total inflow reconstruction results
+Fig.6(c,d) (Section 4.2.2): Sensitivity analysis of observation configurations
+To generate these figures, run the provided plotting scripts or modify them according to your needs.
