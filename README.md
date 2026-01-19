@@ -55,7 +55,7 @@ The main parameters are defined in `obstest/par.txt` (or the config section it r
 - `option`: `True` = Ensemble Kalman Smoother; `False` = Ensemble Kalman Filter.
 
 ## Note on Hydrodynamic Model
-Note: The hydrodynamic model component is not included in this public release due to confidentiality constraints related to terrain data. If you require the complete version with the hydrodynamic model for research purposes, please contact the corresponding author: liupan@whu.edu.cn.
+Note: This public release includes the hydrodynamic model data; however, the terrain cross-section data are relatively coarse due to confidentiality constraints. Before using any of the publicly released data, please contact the corresponding author (liupan@whu.edu.cn).
 
 ## Results and Visualization
 We have uploaded all calculation results in the plot folder and provided plotting code examples. You can reproduce the figures from the paper:
