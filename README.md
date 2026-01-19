@@ -12,8 +12,8 @@ Estimating the “true” upstream inflow is challenging when (i) direct inflow 
 - Supports **CPU acceleration / multiprocessing** for faster computation (please set a safe number of workers).
 
 ## Requirements
-- Python 3.x
-- Common scientific Python stack (e.g., `numpy`, `scipy`, `pandas`, `matplotlib`), plus any other dependencies listed in `requirements.txt` (if provided).
+- Python 3.10.13
+- Common scientific Python stack (e.g., `numpy`, `scipy`, `pandas`, `matplotlib`), plus any other dependencies listed in `requirements.txt`
 
 ## Input Data
 This case study requires:
