@@ -13,7 +13,7 @@ Estimating the “true” upstream inflow is challenging when (i) direct inflow 
 
 ## Requirements
 - Python 3.10.13
-- Common scientific Python stack (e.g., `numpy`, `scipy`, `pandas`, `matplotlib`), plus any other dependencies listed in `requirements.txt`
+- Common scientific Python stack (e.g., `numpy`, `pandas`, `matplotlib`), plus any other dependencies listed in `requirements.txt`
 
 ## Input Data
 This case study requires:
