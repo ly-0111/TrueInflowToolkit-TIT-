@@ -63,3 +63,4 @@ We have uploaded all calculation results in the plot folder and provided plottin
 Fig.8 (Section 4.2.3): Total inflow reconstruction results
 Fig.6(c,d) (Section 4.2.2): Sensitivity analysis of observation configurations
 To generate these figures, run the provided plotting scripts or modify them according to your needs.
+Note: The simulation results are saved in `sim/simRTS2.txt`. In this case, both the input and output data have a 15-minute temporal resolution.
